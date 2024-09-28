@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://[Log in to view URL]')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Dandy's World Script by Kles",IntroText = "I Hate Dandy", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 local tab = Window:MakeTab({
@@ -81,3 +81,4 @@ ESPTab:AddButton({
         
     end
 })
+
